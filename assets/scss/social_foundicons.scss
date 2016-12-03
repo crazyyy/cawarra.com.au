@@ -8,6 +8,7 @@
 }
 
 /* global foundicon styles */
+
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -17,16 +18,17 @@
   background-image: none;
   background-position: 0 0;
   background-repeat: repeat;
-}
 
-[class*="foundicon-"]:before {
-  font-family: "SocialFoundicons";
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: inherit;
+  &:before {
+    font-family: "SocialFoundicons";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+  }
 }
 
 /* icons */
+
 .foundicon-thumb-up:before {
   content: "\f000";
 }
